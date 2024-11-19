@@ -12,6 +12,6 @@ To compile a mod and add it to your game's `Mods` directory:
 
 1. Rebuild the project using [Visual Studio](https://www.visualstudio.com/vs/community/) or [MonoDevelop](http://www.monodevelop.com/).  
    <small>This will compile the code and package it into the mod directory.</small>
-2. Launch the project with debugging.  
+2. Copy and paste [CP]InfestedMonsterTotems folder to `Mods` directory
+3. Launch the project with debugging.  
    <small>This will start the game through SMAPI and attach the Visual Studio debugger.</small>
-3. Copy and paste [CP]InfestedMonsterTotems folder to `Mods` directory
