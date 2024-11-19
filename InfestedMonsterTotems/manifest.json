@@ -1,0 +1,16 @@
+{
+  "Name": "InfestedMonsterTotems",
+  "Author": "cakeymat",
+  "Version": "0.0.1",
+  "Description": "Adds monster-specific totems that warp you to infested areas in the mines.",
+  "UniqueID": "cakeymat.InfestedMonsterTotems",
+  "EntryDll": "InfestedMonsterTotems.dll",
+  "MinimumApiVersion": "4.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.0"
+    }
+  ]
+}

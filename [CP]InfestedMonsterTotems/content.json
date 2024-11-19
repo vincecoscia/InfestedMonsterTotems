@@ -1,0 +1,114 @@
+{
+  "Format": "2.4.4",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+      "FromFile": "assets/totem_sprites.png",
+      "LogName": "Loading totem sprites"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "cakeymat.InfestedMonsterTotems_SlimeTotem": "766 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SlimeTotem/false/null/Slime Totem",
+        "cakeymat.InfestedMonsterTotems_BugTotem": "684 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_BugTotem/false/null/Bug Totem",
+        "cakeymat.InfestedMonsterTotems_SkeletonTotem": "769 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SkeletonTotem/false/null/Skeleton Totem",
+        "cakeymat.InfestedMonsterTotems_BatTotem": "770 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_BatTotem/false/null/Bat Totem"
+      },
+      "LogName": "Adding crafting recipes"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "cakeymat.InfestedMonsterTotems_SlimeTotem": {
+          "Name": "Slime Totem",
+          "DisplayName": "Slime Totem",
+          "Description": "Warps you to a slime-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 0,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 0,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_BugTotem": {
+          "Name": "Bug Totem",
+          "DisplayName": "Bug Totem",
+          "Description": "Warps you to a bug-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 1,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 1,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_SkeletonTotem": {
+          "Name": "Skeleton Totem",
+          "DisplayName": "Skeleton Totem",
+          "Description": "Warps you to a skeleton-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 2,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 2,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_BatTotem": {
+          "Name": "Bat Totem",
+          "DisplayName": "Bat Totem",
+          "Description": "Warps you to a bat-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 3,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 3,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        }
+      },
+      "LogName": "Adding totem objects"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "cakeymat.InfestedMonsterTotems_SlimeTotemRecipe": "Dear @,^I've noticed you've been getting quite good at handling those slimes in the mines. I think you're ready to learn something special.^Here's a recipe for a Slime Totem that can help you find more of them when you need to.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_SlimeTotem %%",
+        
+        "cakeymat.InfestedMonsterTotems_BugTotemRecipe": "Dear @,^Your skill at exterminating those pesky cave insects hasn't gone unnoticed. I've got something that might interest you.^This recipe for a Bug Totem will help you find more when you need them.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_BugTotem %%",
+        
+        "cakeymat.InfestedMonsterTotems_SkeletonTotemRecipe": "Dear @,^I've been watching your progress with those skeletons in the mines. Impressive work.^Here's a recipe for a Skeleton Totem - use it wisely.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_SkeletonTotem %%",
+        
+        "cakeymat.InfestedMonsterTotems_BatTotemRecipe": "Dear @,^Your prowess at dealing with those cave bats is remarkable. I think you're ready for this.^This Bat Totem recipe should help you find more of them when needed.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_BatTotem %%"
+      }
+    }
+  ]
+}

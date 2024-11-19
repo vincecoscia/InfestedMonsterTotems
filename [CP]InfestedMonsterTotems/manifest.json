@@ -1,0 +1,16 @@
+{
+  "Name": "InfestedMonsterTotems Assets",
+  "Author": "cakeymat",
+  "Version": "0.0.1",
+  "Description": "Assets for InfestedMonsterTotems mod.",
+  "UniqueID": "cakeymat.InfestedMonsterTotems.Assets",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "cakeymat.InfestedMonsterTotems",
+      "MinimumVersion": "0.0.1"
+    }
+  ]
+} 
