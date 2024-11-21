@@ -1,11 +1,9 @@
 using System;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI;
 using StardewModdingAPI.Utilities;
-using System.Collections.Generic;
 
-namespace InfestedMonsterTotems
+namespace InfestedMonsterTotems.Integration.GenericModConfigMenu
 {
     public interface IGenericModConfigMenuApi
     {

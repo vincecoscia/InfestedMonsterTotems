@@ -1,26 +1,28 @@
 using StardewModdingAPI;
+using InfestedMonsterTotems.Core;
+using InfestedMonsterTotems.Totems;
 
-namespace InfestedMonsterTotems.Framework
+namespace InfestedMonsterTotems.Integration.GenericModConfigMenu
 {
     internal class GenericModConfigMenuIntegration
     {
         private readonly IGenericModConfigMenuApi ConfigMenu;
         private readonly IManifest ModManifest;
-        private readonly ModConfig DefaultConfig;
-        private readonly Func<ModConfig> GetConfig;
+        private readonly Core.ModConfig DefaultConfig;
+        private readonly Func<Core.ModConfig> GetConfig;
         private readonly Action Reset;
         private readonly Action SaveAndApply;
 
         public GenericModConfigMenuIntegration(
             IGenericModConfigMenuApi configMenu,
             IManifest manifest,
-            Func<ModConfig> getConfig,
+            Func<Core.ModConfig> getConfig,
             Action reset,
             Action saveAndApply)
         {
             ConfigMenu = configMenu;
             ModManifest = manifest;
-            DefaultConfig = new ModConfig();
+            DefaultConfig = new Core.ModConfig();
             GetConfig = getConfig;
             Reset = reset;
             SaveAndApply = saveAndApply;
@@ -48,7 +50,7 @@ namespace InfestedMonsterTotems.Framework
             // Monster Kill Requirements
             ConfigMenu.AddSectionTitle(ModManifest, () => "Monster Kill Requirements");
 
-            foreach (var totem in ModEntry.MonsterTotems)
+            foreach (var totem in TotemRegistry.MonsterTotems)
             {
                 ConfigMenu.AddNumberOption(
                     mod: ModManifest,
@@ -64,7 +66,7 @@ namespace InfestedMonsterTotems.Framework
             // Shop Prices
             ConfigMenu.AddSectionTitle(ModManifest, () => "Shop Prices");
 
-            foreach (var totem in ModEntry.MonsterTotems)
+            foreach (var totem in TotemRegistry.MonsterTotems)
             {
                 ConfigMenu.AddNumberOption(
                     mod: ModManifest,
@@ -85,4 +87,4 @@ namespace InfestedMonsterTotems.Framework
             return string.Join(" ", System.Text.RegularExpressions.Regex.Split(name, @"(?<!^)(?=[A-Z])"));
         }
     }
-}
+} 

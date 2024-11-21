@@ -13,16 +13,16 @@
       "Entries": {
         "cakeymat.InfestedMonsterTotems_SlimeTotem": "766 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SlimeTotem/false/null/Slime Totem",
         "cakeymat.InfestedMonsterTotems_BugTotem": "684 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_BugTotem/false/null/Bug Totem",
-        "cakeymat.InfestedMonsterTotems_SkeletonTotem": "769 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SkeletonTotem/false/null/Skeleton Totem",
-        "cakeymat.InfestedMonsterTotems_BatTotem": "770 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_BatTotem/false/null/Bat Totem",
-        "cakeymat.InfestedMonsterTotems_SpiritTotem": "768 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SpiritTotem/false/null/Spirit Totem",
+        "cakeymat.InfestedMonsterTotems_SkeletonTotem": "881 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SkeletonTotem/false/null/Skeleton Totem",
+        "cakeymat.InfestedMonsterTotems_BatTotem": "767 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_BatTotem/false/null/Bat Totem",
+        "cakeymat.InfestedMonsterTotems_SpiritTotem": "769 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SpiritTotem/false/null/Spirit Totem",
         "cakeymat.InfestedMonsterTotems_DuggyTotem": "330 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_DuggyTotem/false/null/Duggy Totem",
         "cakeymat.InfestedMonsterTotems_DustSpriteTotem": "382 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_DustSpriteTotem/false/null/Dust Sprite Totem",
         "cakeymat.InfestedMonsterTotems_CrabTotem": "717 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_CrabTotem/false/null/Crab Totem",
-        "cakeymat.InfestedMonsterTotems_MummyTotem": "767 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_MummyTotem/false/null/Mummy Totem",
+        "cakeymat.InfestedMonsterTotems_MummyTotem": "768 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_MummyTotem/false/null/Mummy Totem",
         "cakeymat.InfestedMonsterTotems_DinosaurTotem": "583 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_DinosaurTotem/false/null/Dinosaur Totem",
-        "cakeymat.InfestedMonsterTotems_SerpentTotem": "771 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SerpentTotem/false/null/Serpent Totem",
-        "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem": "772 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_MagmaSpriteTotem/false/null/Magma Sprite Totem"
+        "cakeymat.InfestedMonsterTotems_SerpentTotem": "769 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SerpentTotem/false/null/Serpent Totem",
+        "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem": "848 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_MagmaSpriteTotem/false/null/Magma Sprite Totem"
       },
       "LogName": "Adding crafting recipes"
     },
