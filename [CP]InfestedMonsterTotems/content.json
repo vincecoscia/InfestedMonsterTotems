@@ -14,7 +14,15 @@
         "cakeymat.InfestedMonsterTotems_SlimeTotem": "766 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SlimeTotem/false/null/Slime Totem",
         "cakeymat.InfestedMonsterTotems_BugTotem": "684 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_BugTotem/false/null/Bug Totem",
         "cakeymat.InfestedMonsterTotems_SkeletonTotem": "769 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SkeletonTotem/false/null/Skeleton Totem",
-        "cakeymat.InfestedMonsterTotems_BatTotem": "770 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_BatTotem/false/null/Bat Totem"
+        "cakeymat.InfestedMonsterTotems_BatTotem": "770 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_BatTotem/false/null/Bat Totem",
+        "cakeymat.InfestedMonsterTotems_SpiritTotem": "768 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SpiritTotem/false/null/Spirit Totem",
+        "cakeymat.InfestedMonsterTotems_DuggyTotem": "330 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_DuggyTotem/false/null/Duggy Totem",
+        "cakeymat.InfestedMonsterTotems_DustSpriteTotem": "382 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_DustSpriteTotem/false/null/Dust Sprite Totem",
+        "cakeymat.InfestedMonsterTotems_CrabTotem": "717 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_CrabTotem/false/null/Crab Totem",
+        "cakeymat.InfestedMonsterTotems_MummyTotem": "767 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_MummyTotem/false/null/Mummy Totem",
+        "cakeymat.InfestedMonsterTotems_DinosaurTotem": "583 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_DinosaurTotem/false/null/Dinosaur Totem",
+        "cakeymat.InfestedMonsterTotems_SerpentTotem": "771 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_SerpentTotem/false/null/Serpent Totem",
+        "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem": "772 1 390 25 709 5/Field/cakeymat.InfestedMonsterTotems_MagmaSpriteTotem/false/null/Magma Sprite Totem"
       },
       "LogName": "Adding crafting recipes"
     },
@@ -23,7 +31,7 @@
       "Target": "Data/Objects",
       "Entries": {
         "cakeymat.InfestedMonsterTotems_SlimeTotem": {
-          "Name": "Slime Totem",
+          "Name": "cakeymat.InfestedMonsterTotems_SlimeTotem",
           "DisplayName": "Slime Totem",
           "Description": "Warps you to a slime-infested area in the mines.",
           "Category": -248,
@@ -41,7 +49,7 @@
           "ContextTags": ["totem_item"]
         },
         "cakeymat.InfestedMonsterTotems_BugTotem": {
-          "Name": "Bug Totem",
+          "Name": "cakeymat.InfestedMonsterTotems_BugTotem",
           "DisplayName": "Bug Totem",
           "Description": "Warps you to a bug-infested area in the mines.",
           "Category": -248,
@@ -59,7 +67,7 @@
           "ContextTags": ["totem_item"]
         },
         "cakeymat.InfestedMonsterTotems_SkeletonTotem": {
-          "Name": "Skeleton Totem",
+          "Name": "cakeymat.InfestedMonsterTotems_SkeletonTotem",
           "DisplayName": "Skeleton Totem",
           "Description": "Warps you to a skeleton-infested area in the mines.",
           "Category": -248,
@@ -77,7 +85,7 @@
           "ContextTags": ["totem_item"]
         },
         "cakeymat.InfestedMonsterTotems_BatTotem": {
-          "Name": "Bat Totem",
+          "Name": "cakeymat.InfestedMonsterTotems_BatTotem",
           "DisplayName": "Bat Totem",
           "Description": "Warps you to a bat-infested area in the mines.",
           "Category": -248,
@@ -89,6 +97,150 @@
           "SpriteHeight": 16,
           "SpriteWidth": 16,
           "DefaultSpriteIndex": 3,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_SpiritTotem": {
+          "Name": "cakeymat.InfestedMonsterTotems_SpiritTotem",
+          "DisplayName": "Spirit Totem",
+          "Description": "Warps you to a spirit-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 4,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 4,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_DuggyTotem": {
+          "Name": "cakeymat.InfestedMonsterTotems_DuggyTotem",
+          "DisplayName": "Duggy Totem",
+          "Description": "Warps you to a duggy-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 5,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 5,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_DustSpriteTotem": {
+          "Name": "cakeymat.InfestedMonsterTotems_DustSpriteTotem",
+          "DisplayName": "Dust Sprite Totem",
+          "Description": "Warps you to a dust sprite-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 6,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 6,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_CrabTotem": {
+          "Name": "cakeymat.InfestedMonsterTotems_CrabTotem",
+          "DisplayName": "Crab Totem",
+          "Description": "Warps you to a crab-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 7,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 7,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_MummyTotem": {
+          "Name": "cakeymat.InfestedMonsterTotems_MummyTotem",
+          "DisplayName": "Mummy Totem",
+          "Description": "Warps you to a mummy-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 8,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 8,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_DinosaurTotem": {
+          "Name": "cakeymat.InfestedMonsterTotems_DinosaurTotem",
+          "DisplayName": "Dinosaur Totem",
+          "Description": "Warps you to a dinosaur-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 9,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 9,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_SerpentTotem": {
+          "Name": "cakeymat.InfestedMonsterTotems_SerpentTotem",
+          "DisplayName": "Serpent Totem",
+          "Description": "Warps you to a serpent-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 10,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 10,
+          "TileHeight": 1,
+          "TileWidth": 1,
+          "IsPlaceable": false,
+          "ContextTags": ["totem_item"]
+        },
+        "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem": {
+          "Name": "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem",
+          "DisplayName": "Magma Sprite Totem",
+          "Description": "Warps you to a magma sprite-infested area in the mines.",
+          "Category": -248,
+          "Price": 100,
+          "Edibility": -300,
+          "Type": "Basic",
+          "Texture": "Mods/cakeymat.InfestedMonsterTotems/Totems",
+          "SpriteIndex": 11,
+          "SpriteHeight": 16,
+          "SpriteWidth": 16,
+          "DefaultSpriteIndex": 11,
           "TileHeight": 1,
           "TileWidth": 1,
           "IsPlaceable": false,
@@ -107,7 +259,118 @@
         
         "cakeymat.InfestedMonsterTotems_SkeletonTotemRecipe": "Dear @,^I've been watching your progress with those skeletons in the mines. Impressive work.^Here's a recipe for a Skeleton Totem - use it wisely.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_SkeletonTotem %%",
         
-        "cakeymat.InfestedMonsterTotems_BatTotemRecipe": "Dear @,^Your prowess at dealing with those cave bats is remarkable. I think you're ready for this.^This Bat Totem recipe should help you find more of them when needed.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_BatTotem %%"
+        "cakeymat.InfestedMonsterTotems_BatTotemRecipe": "Dear @,^Your prowess at dealing with those cave bats is remarkable. I think you're ready for this.^This Bat Totem recipe should help you find more of them when needed.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_BatTotem %%",
+
+        "cakeymat.InfestedMonsterTotems_SpiritTotemRecipe": "Dear @,^Your ability to handle those shadow creatures is impressive. Here's something that might help you find more of them.^Take this Spirit Totem recipe, but be careful - these beings are not to be underestimated.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_SpiritTotem %%",
+
+        "cakeymat.InfestedMonsterTotems_DuggyTotemRecipe": "Dear @,^Those duggies giving you trouble? Well, now you can find them when you need to.^Here's a Duggy Totem recipe that might come in handy.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_DuggyTotem %%",
+
+        "cakeymat.InfestedMonsterTotems_DustSpriteTotemRecipe": "Dear @,^Those dust sprites are tricky little things, aren't they? I've got something that might help you track them down.^Here's a recipe for a Dust Sprite Totem.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_DustSpriteTotem %%",
+
+        "cakeymat.InfestedMonsterTotems_CrabTotemRecipe": "Dear @,^I see you've become quite adept at dealing with those rock crabs. Here's a special recipe just for you.^This Crab Totem will help you find more when you need them.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_CrabTotem %%",
+
+        "cakeymat.InfestedMonsterTotems_MummyTotemRecipe": "Dear @,^Your encounters with the desert's ancient guardians have not gone unnoticed. This might help you find them again.^Here's a Mummy Totem recipe - handle with care.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_MummyTotem %%",
+
+        "cakeymat.InfestedMonsterTotems_DinosaurTotemRecipe": "Dear @,^Those prehistoric beasts are quite something, aren't they? I think you're ready for this.^Here's a Dinosaur Totem recipe. Use it to find more of those ancient creatures.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_DinosaurTotem %%",
+
+        "cakeymat.InfestedMonsterTotems_SerpentTotemRecipe": "Dear @,^Your skill at handling those deadly serpents is remarkable. I have something special for you.^This Serpent Totem recipe will help you find more of them - if you dare.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_SerpentTotem %%",
+
+        "cakeymat.InfestedMonsterTotems_MagmaSpriteTotemRecipe": "Dear @,^Those magma sprites are quite the challenge, but you've proven yourself capable.^Here's a Magma Sprite Totem recipe. Be careful with this one - it's hot stuff.^    -Marlon%item craftingRecipe cakeymat.InfestedMonsterTotems_MagmaSpriteTotem %%"
+      }
+    },
+    {
+      "LogName": "Adding items to Adventure Guild shop",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AdventureShop",
+        "Items"
+      ],
+      "Entries": {
+        "cakeymat.InfestedMonsterTotems_SlimeTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_SlimeTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_SlimeTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_SlimeTotem",
+          "Price": 1000,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_BugTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_BugTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_BugTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_BugTotem",
+          "Price": 1000,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_SkeletonTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_SkeletonTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_SkeletonTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_SkeletonTotem",
+          "Price": 1500,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_BatTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_BatTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_BatTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_BatTotem",
+          "Price": 1000,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_SpiritTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_SpiritTotem", 
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_SpiritTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_SpiritTotem",
+          "Price": 1500,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_DuggyTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_DuggyTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_DuggyTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_DuggyTotem", 
+          "Price": 1000,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_DustSpriteTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_DustSpriteTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_DustSpriteTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_DustSpriteTotem",
+          "Price": 1500,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_CrabTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_CrabTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_CrabTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_CrabTotem",
+          "Price": 1000,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_MummyTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_MummyTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_MummyTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_MummyTotem",
+          "Price": 2000,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_DinosaurTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_DinosaurTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_DinosaurTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_DinosaurTotem",
+          "Price": 2000,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_SerpentTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_SerpentTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_SerpentTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_SerpentTotem",
+          "Price": 2000,
+          "AvailableStock": 5
+        },
+        "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem": {
+          "Id": "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem",
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_MagmaSpriteTotem",
+          "ItemId": "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem",
+          "Price": 2000,
+          "AvailableStock": 5
+        }
       }
     }
   ]
