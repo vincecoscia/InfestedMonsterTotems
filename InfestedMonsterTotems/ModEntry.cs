@@ -70,6 +70,25 @@ namespace InfestedMonsterTotems
                 },
                 saveAndApply: () => _helper.WriteConfig(Config)
             ).Register();
+
+            // Get Content Patcher API
+            var contentPatcher = Helper.ModRegistry.GetApi<IContentPatcherAPI>("Pathoschild.ContentPatcher");
+            if (contentPatcher == null)
+            {
+                Monitor.Log("Content Patcher not found", LogLevel.Error);
+                return;
+            }
+
+            // Register tokens for each totem price
+            foreach (var totem in TotemRegistry.MonsterTotems)
+            {
+                string totemName = totem.Key.Replace("cakeymat.InfestedMonsterTotems_", "");
+                contentPatcher.RegisterToken(
+                    mod: ModManifest,
+                    name: $"TotemPrice{totemName}",
+                    getValue: () => new[] { Config.TotemShopPrices[totem.Key].ToString() }
+                );
+            }
         }
 
         private void OnButtonPressed(object? sender, ButtonPressedEventArgs e)

@@ -31,6 +31,9 @@ namespace InfestedMonsterTotems.Monsters
             // Clear existing monsters
             mineShaft.characters.Filter(c => !(c is Monster));
 
+            // Clear any staircases
+            LocationUtils.ClearStaircases(mineShaft);
+
             // Get weighted monster probabilities
             var monsterWeights = _weightCalculator.GetMonsterWeights(monsterTypes);
             float totalWeight = monsterWeights.Values.Sum();
@@ -61,7 +64,7 @@ namespace InfestedMonsterTotems.Monsters
 
                 Vector2 spawnPosition = SpawnUtils.GetRandomSpawnPosition(mineShaft);
 
-                if (SpawnUtils.IsValidSpawnPosition(mineShaft, spawnPosition))
+                if (SpawnUtils.IsValidSpawnPosition(mineShaft, spawnPosition, monsterType))
                 {
                     var monster = _monsterFactory.CreateMonster(monsterType, spawnPosition, mineLevel);
                     if (monster != null)

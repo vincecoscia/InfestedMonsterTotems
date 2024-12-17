@@ -291,84 +291,84 @@
           "Id": "cakeymat.InfestedMonsterTotems_SlimeTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_SlimeTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_SlimeTotem",
-          "Price": 1000,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceSlimeTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_BugTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_BugTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_BugTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_BugTotem",
-          "Price": 1000,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceBugTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_SkeletonTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_SkeletonTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_SkeletonTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_SkeletonTotem",
-          "Price": 1500,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceSkeletonTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_BatTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_BatTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_BatTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_BatTotem",
-          "Price": 1000,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceBatTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_SpiritTotem": {
-          "Id": "cakeymat.InfestedMonsterTotems_SpiritTotem", 
+          "Id": "cakeymat.InfestedMonsterTotems_SpiritTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_SpiritTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_SpiritTotem",
-          "Price": 1500,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceSpiritTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_DuggyTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_DuggyTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_DuggyTotem",
-          "ItemId": "cakeymat.InfestedMonsterTotems_DuggyTotem", 
-          "Price": 1000,
+          "ItemId": "cakeymat.InfestedMonsterTotems_DuggyTotem",
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceDuggyTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_DustSpriteTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_DustSpriteTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_DustSpriteTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_DustSpriteTotem",
-          "Price": 1500,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceDustSpriteTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_CrabTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_CrabTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_CrabTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_CrabTotem",
-          "Price": 1000,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceCrabTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_MummyTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_MummyTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_MummyTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_MummyTotem",
-          "Price": 2000,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceMummyTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_DinosaurTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_DinosaurTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_DinosaurTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_DinosaurTotem",
-          "Price": 2000,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceDinosaurTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_SerpentTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_SerpentTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_SerpentTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_SerpentTotem",
-          "Price": 2000,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceSerpentTotem}}",
           "AvailableStock": 5
         },
         "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem": {
           "Id": "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem",
           "Condition": "PLAYER_HAS_CRAFTING_RECIPE Any cakeymat.InfestedMonsterTotems_MagmaSpriteTotem",
           "ItemId": "cakeymat.InfestedMonsterTotems_MagmaSpriteTotem",
-          "Price": 2000,
+          "Price": "{{cakeymat.InfestedMonsterTotems/TotemPriceMagmaSpriteTotem}}",
           "AvailableStock": 5
         }
       }

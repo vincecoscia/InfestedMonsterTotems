@@ -6,7 +6,7 @@
   "UniqueID": "cakeymat.InfestedMonsterTotems",
   "EntryDll": "InfestedMonsterTotems.dll",
   "MinimumApiVersion": "4.0",
-  "UpdateKeys": [],
+  "UpdateKeys": [ "Nexus:29604" ],
   "Dependencies": [
     {
       "UniqueID": "Pathoschild.ContentPatcher",

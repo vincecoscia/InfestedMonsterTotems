@@ -46,8 +46,8 @@ namespace InfestedMonsterTotems.Totems
                     _monitor.Log($"Requirements disabled - automatically unlocking recipe for {totemName}", LogLevel.Info);
                     if (!player.mailbox.Contains(mailId))
                     {
-                        Game1.addMailForTomorrow(mailId);
-                        _monitor.Log($"Added mail '{mailId}' to be delivered tomorrow", LogLevel.Info);
+                        player.mailbox.Add(mailId);
+                        _monitor.Log($"Added mail '{mailId}' to mailbox for tomorrow morning", LogLevel.Info);
                     }
                     continue;
                 }
@@ -69,8 +69,8 @@ namespace InfestedMonsterTotems.Totems
                     _monitor.Log($"Unlocking recipe for {totemName} ({totalKills} kills)", LogLevel.Info);
                     if (!player.mailbox.Contains(mailId))
                     {
-                        Game1.addMailForTomorrow(mailId);
-                        _monitor.Log($"Added mail '{mailId}' to be delivered tomorrow", LogLevel.Info);
+                        player.mailbox.Add(mailId);
+                        _monitor.Log($"Added mail '{mailId}' to mailbox for tomorrow morning", LogLevel.Info);
                     }
                 }
             }
