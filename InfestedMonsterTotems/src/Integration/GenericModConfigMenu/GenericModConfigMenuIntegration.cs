@@ -73,7 +73,10 @@ namespace InfestedMonsterTotems.Integration.GenericModConfigMenu
                     name: () => GetTotemDisplayName(totem.Key),
                     tooltip: () => $"Purchase price for the {GetTotemDisplayName(totem.Key)}",
                     getValue: () => GetConfig().TotemShopPrices[totem.Key],
-                    setValue: value => GetConfig().TotemShopPrices[totem.Key] = value,
+                    setValue: value => {
+                        GetConfig().TotemShopPrices[totem.Key] = value;
+                        SaveAndApply();
+                    },
                     min: 0,
                     max: 10000,
                     interval: 100

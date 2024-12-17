@@ -63,7 +63,7 @@ namespace InfestedMonsterTotems.Totems
             currentMine.loadLevel(targetLevel);
             currentMine.mustKillAllMonstersToAdvance();
             LocationUtils.ClearRocksFromLevel(currentMine);
-            LocationUtils.ClearStaircases(currentMine);
+            LocationUtils.ClearStaircases(currentMine, _monitor);
             
             // Wait a tick to spawn monsters and restore player visibility
             _helper.Events.GameLoop.UpdateTicked += OnReloadTick;
@@ -90,7 +90,7 @@ namespace InfestedMonsterTotems.Totems
                     mineShaft.loadLevel(targetLevel);
                     mineShaft.mustKillAllMonstersToAdvance();
                     LocationUtils.ClearRocksFromLevel(mineShaft);
-                    LocationUtils.ClearStaircases(mineShaft);
+                    LocationUtils.ClearStaircases(mineShaft, _monitor);
                     
                     int ticksWaited = 0;
                     _helper.Events.GameLoop.UpdateTicked += WaitForLoad;

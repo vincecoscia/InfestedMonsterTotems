@@ -1,6 +1,7 @@
 using StardewValley;
 using StardewValley.Locations;
 using Microsoft.Xna.Framework;
+using StardewModdingAPI;
 
 namespace InfestedMonsterTotems.Utils
 {
@@ -31,21 +32,17 @@ namespace InfestedMonsterTotems.Utils
             }
         }
 
-        public static void ClearStaircases(MineShaft mineShaft)
+        public static void ClearStaircases(MineShaft mineShaft, IMonitor monitor)
         {
             for (int x = 0; x < mineShaft.map.Layers[0].LayerWidth; x++)
             {
                 for (int y = 0; y < mineShaft.map.Layers[0].LayerHeight; y++)
                 {
-                    Vector2 tile = new Vector2(x, y);
-                    if (mineShaft.Objects.ContainsKey(tile))
+                    var buildingTile = mineShaft.map.GetLayer("Buildings").Tiles[x, y];
+                    if (buildingTile?.TileIndex == 173)
                     {
-                        var obj = mineShaft.Objects[tile];
-                        // Check if it's a staircase
-                        if (obj.Name.Contains("Staircase") || obj.ParentSheetIndex == 77)
-                        {
-                            mineShaft.Objects.Remove(tile);
-                        }
+                        mineShaft.map.GetLayer("Buildings").Tiles[x, y] = null;
+                        monitor.Log($"Cleared staircase from Buildings layer at {x},{y}", LogLevel.Debug);
                     }
                 }
             }

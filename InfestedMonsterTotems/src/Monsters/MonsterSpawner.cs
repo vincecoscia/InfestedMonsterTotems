@@ -32,7 +32,7 @@ namespace InfestedMonsterTotems.Monsters
             mineShaft.characters.Filter(c => !(c is Monster));
 
             // Clear any staircases
-            LocationUtils.ClearStaircases(mineShaft);
+            LocationUtils.ClearStaircases(mineShaft, _monitor);
 
             // Get weighted monster probabilities
             var monsterWeights = _weightCalculator.GetMonsterWeights(monsterTypes);
